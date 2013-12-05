@@ -1,0 +1,39 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("stackoverflow.com") {
+    /* Gray top bar */
+    .topbar {
+        background-color: #eeeeee !important;
+    }
+
+    /* Link hover background */
+    .topbar .icon-site-switcher {
+        background-position: 10px -51px !important;
+    }
+
+    .topbar .topbar-icon:hover {
+        background-color: #e2e2e2 !important;
+    }
+
+    .topbar .topbar-links .topbar-menu-links a:hover {
+        background-color: #e2e2e2 !important;
+    }
+
+    .topbar .topbar-links .profile-me:hover {
+        background-color: #e2e2e2 !important;
+    }
+
+    /* Font color */
+    .topbar .topbar-links .topbar-menu-links a, .topbar .topbar-links .topbar-menu-links a:visited {
+        color: #555555 !important;
+    }
+
+    .topbar .topbar-links .topbar-flair .reputation, .topbar .topbar-links .topbar-flair .badgecount {
+        color: #555555 !important;
+    }
+
+    /* Remove space over top bar */
+    #custom-header {
+        height: 18px !important;
+    }
+}

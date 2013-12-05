@@ -1,0 +1,35 @@
+/* Gray top bar */
+.topbar {
+    background-color: #eeeeee;
+}
+
+/* Link hover background */
+.topbar .icon-site-switcher {
+    background-position: 10px -51px;
+}
+
+.topbar .topbar-icon:hover {
+    background-color: #e2e2e2;
+}
+
+.topbar .topbar-links .topbar-menu-links a:hover {
+    background-color: #e2e2e2;
+}
+
+.topbar .topbar-links .profile-me:hover {
+    background-color: #e2e2e2;
+}
+
+/* Font color */
+.topbar .topbar-links .topbar-menu-links a, .topbar .topbar-links .topbar-menu-links a:visited {
+    color: #555555;
+}
+
+.topbar .topbar-links .topbar-flair .reputation, .topbar .topbar-links .topbar-flair .badgecount {
+    color: #555555;
+}
+
+/* Remove space over top bar */
+#custom-header {
+    height: 18px
+}

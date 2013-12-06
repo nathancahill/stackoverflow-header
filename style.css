@@ -28,8 +28,3 @@
 .topbar .topbar-links .topbar-flair .reputation, .topbar .topbar-links .topbar-flair .badgecount {
     color: #555555;
 }
-
-/* Remove space over top bar */
-#custom-header {
-    height: 18px
-}
